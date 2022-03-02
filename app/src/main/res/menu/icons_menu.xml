@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/language"
+        android:orderInCategory="1"
+        android:title="@string/language">
+
+        <menu>
+            <item android:id="@+id/hi"
+                android:title="@string/hindi"
+                android:orderInCategory="1"/>
+
+            <item android:id="@+id/en"
+                android:title="@string/english"
+                android:orderInCategory="1"/>
+
+        </menu>
+
+    </item>
+
+
+    <item android:id="@+id/country"
+        android:orderInCategory="2"
+        android:title="@string/country">
+
+        <menu>
+            <item android:id="@+id/india"
+                android:title="@string/india"
+                android:orderInCategory="1"/>
+
+            <item android:id="@+id/us"
+                android:title="@string/united_state"
+                android:orderInCategory="2"/>
+
+            <item android:id="@+id/sg"
+                android:title="@string/singapore"
+                android:orderInCategory="3"/>
+
+            <item android:id="@+id/au"
+                android:title="@string/australia"
+                android:orderInCategory="4"/>
+
+            <item android:id="@+id/pk"
+                android:title="@string/pakistan"
+                android:orderInCategory="5"/>
+
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/category"
+        android:orderInCategory="3"
+        android:title="@string/category" >
+
+        <menu>
+
+            <item android:id="@+id/breaking_news"
+                android:title="@string/breaking_news"
+                android:orderInCategory="1"/>
+
+            <item android:id="@+id/world"
+                android:title="@string/world"
+                android:orderInCategory="2"/>
+
+            <item android:id="@+id/nation"
+                android:title="@string/nation"
+                android:orderInCategory="3"/>
+
+            <item android:id="@+id/business"
+                android:title="@string/business"
+                android:orderInCategory="4"/>
+
+            <item android:id="@+id/sports"
+                android:title="@string/sports"
+                android:orderInCategory="5"/>
+
+            <item android:id="@+id/technology"
+                android:title="@string/technology"
+                android:orderInCategory="6"/>
+
+            <item android:id="@+id/science"
+                android:title="@string/science"
+                android:orderInCategory="7"/>
+
+            <item android:id="@+id/general"
+                android:title="@string/general"
+                android:orderInCategory="8"/>
+
+            <item android:id="@+id/health"
+                android:title="@string/health"
+                android:orderInCategory="9"/>
+
+            <item android:id="@+id/entertainment"
+                android:title="@string/entertainment"
+                android:orderInCategory="10"/>
+
+        </menu>
+
+    </item>
+</menu>
+
